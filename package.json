@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "private": true,
   "scripts": {
     "build": "next build",
@@ -33,5 +34,27 @@
       "@types/react": "npm:types-react@19.0.0-rc.1",
       "@types/react-dom": "npm:types-react-dom@19.0.0-rc.1"
     }
+=======
+  "name": "school-humidity-crud",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "15.0.1",
+    "pg": "^8.13.0",
+    "react": "19.0.0-rc-69d4b800-20241021",
+    "react-dom": "19.0.0-rc-69d4b800-20241021"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "15.0.1",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+>>>>>>> 748929f2296b0e7a74ae3dd0975e19bae34f371d
   }
 }
